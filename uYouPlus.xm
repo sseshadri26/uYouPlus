@@ -412,7 +412,7 @@ static void replaceTab(YTIGuideResponse *response) {
 	id result = %orig;
 
 	const int size = 12;
-	float speeds[] = {0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25, 2.5, 2.75, 3.0};
+	float speeds[] = {0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25, 2.5, 2.75, 3.0, 3.125, 3.25, 3.375, 3.5, 3.75, 4.0, 4.25, 4.5, 4.75, 5.0};
 	id varispeedSwitchControllerOptions[size];
 
 	for (int i = 0; i < size; ++i) {
